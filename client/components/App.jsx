@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
-import Header from './Header'
-import Navbar from './Navbar'
-import Footer from './Footer'
+
+// import Componenets
+import Header from './layout/Header'
+import Navbar from './layout/Navbar'
+import Footer from './layout/Footer'
+import Landing from './home/Landing'
 
 import { getGreeting } from '../apiClient'
 
@@ -19,6 +22,9 @@ class App extends Component {
         </div>
         <div>
           <Navbar />
+        </div>
+        <div>
+          <Landing />
         </div>
         <div>
           <Footer />

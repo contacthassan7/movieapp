@@ -13,7 +13,7 @@ class Header extends Component {
                 <span className='fab fa-js fa-2x' />
               </div>
               <div className="col-md-3">
-                <h3>Browse Movies</h3>
+                <h3>Discover Your Chill</h3>
               </div>
               <div className="col-md-6">
                 <input type="search" placeholder="Search..." id="" className="form-control" />
