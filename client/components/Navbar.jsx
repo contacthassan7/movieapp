@@ -16,6 +16,7 @@ function Navbar () {
             </li>
             <li className="nav-item d-inline-block mr-4">
               <i className="fab fa-react fa-5x" id="react-logo" />
+              <span className='fab fa-js fa-5x' />
             </li>
           </ul>
         </div>

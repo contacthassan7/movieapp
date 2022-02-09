@@ -11,7 +11,6 @@ class Header extends Component {
                 <span className='fab fa-imdb fa-2x' />
                 <i className="fab fa-react fa-2x" id="react-logo" />
                 <span className='fab fa-js fa-2x' />
-                <span className='fab fa-redux fa-2x' />
               </div>
               <div className="col-md-3">
                 <h3>Browse Movies</h3>

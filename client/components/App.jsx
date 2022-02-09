@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Header from './Header'
 import Navbar from './Navbar'
+import Footer from './Footer'
+
 import { getGreeting } from '../apiClient'
 
 class App extends Component {
@@ -17,6 +19,9 @@ class App extends Component {
         </div>
         <div>
           <Navbar />
+        </div>
+        <div>
+          <Footer />
         </div>
       </>
     )
