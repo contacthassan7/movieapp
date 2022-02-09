@@ -1,14 +1,18 @@
-import React, { useState, useEffect } from 'react'
-import Text1 from './Text1'
+import React, { Component } from 'react'
+import Header from './Header'
+
 import { getGreeting } from '../apiClient'
 
-function App () {
-  return (
-    <>
-      <Text1 />
-      <h1>Hello World</h1>
-    </>
-  )
+class App extends Component {
+  state = { message: 'Hello, Dev team' }
+  render () {
+    return (
+      <div>
+        <Header />
+      </div>
+
+    )
+  }
 }
 
 export default App
